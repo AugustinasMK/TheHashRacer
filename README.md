@@ -39,7 +39,7 @@ There are 3 ways to get your results onto the board:
  - F - The minimum percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
  - G - The average percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
  
- |Author|Laida|A|B|C|D|E|F|G|Rank|
+ |Author|Year|A|B|C|D|E|F|G|Rank|
  |------|-----|-|-|-|-|-|-|-|----|
  |AugustinasMK|2017|PASS|PASS| 9.14281 s|0|44%|0%|26%|1|
  
