@@ -34,8 +34,8 @@ There are 3 ways to get your results onto the board:
 3. Run the code yourself and post a pull request here on Github that contains your addition to the board.
 ## The Board
 
- - A - Checks the first case: if m1 and m2 are one character long strings the hashes should be of the same length.
- - B - Checks the second case: if m1 and m2 are 1000 characters long strings the hashes should be of the same length.
+ - A - Checks the first case: if m1 and m2 are two different one character long strings the hashes should be of the same length.
+ - B - Checks the second case: if m1 and m2 are two different 1000 characters long strings the hashes should be of the same length.
  - C - The time it takes to hash konstitucija.txt. 
  - D - The number of collisions when hashing 10000 pairs of random strings.
  - E - The maximum percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
