@@ -5,6 +5,8 @@ This program expects you to have created a C++ program that respects the require
 ![Meme](https://funnymemes.co/memes/Slow_and_Steady_Funny_Meme.jpg)
 
 ## Getting started
+You can get the binary from the [releases tab](https://github.com/AugustinasMK/TheHashRacer/releases) here on Github. The binary is standalone and only requires you to pass the path to your generator executable or build it yourself (see below for instructions).
+
 The code in this repository has been written in C++ and will thus require [`CMAKE`](https://cmake.org/) and `MAKE`(comes with either GNU or MinGW) to work correctly.
 These are the steps to get the racer up and running:
 ```bash
@@ -19,6 +21,7 @@ If you get an error please run ```cmake ..``` Otherwise, move on to the next com
 mingw32-make
 ./TheHashRacer.exe <the full path to your hash generator exe>
 ```
+### Warning
 Please note that all `\` in your path should be `\\` for C++ to understand it. I also recommend  not having spaces in the path as it can and most likely will cause problems.
 
 ## Requirements for your Hash Generator
