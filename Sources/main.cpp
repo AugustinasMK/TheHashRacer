@@ -41,7 +41,9 @@ string kurkEilute(size_t ilgis){
 }
 
 string kurkOCEilute(string pirma){
-    pirma[0] = pirma[1];
+    string n = kurkEilute(1);
+    int pos = rand();
+    pirma[pos % pirma.length()] = n[0];
     return pirma;
 }
 
