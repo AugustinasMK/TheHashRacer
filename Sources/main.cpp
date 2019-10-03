@@ -102,7 +102,7 @@ void eilutes(int iterations, const string& path){
             }
         }
         if (i % (iterations / 10) == 0) {
-            std::cout << i * 100 / iterations << "% ";
+            std::cout << i * 100 / iterations << "% " << std::endl;
         }
     }
     std::cout << std::endl;
@@ -158,7 +158,7 @@ void raides(int iterations, const string& path){
         }
         sum += t;
         if (i % (iterations / 10) == 0) {
-            std::cout << i * 100 / iterations << "% ";
+            std::cout << i * 100 / iterations << "% " << std::endl;
         }
     }
     std::cout << std::endl;
