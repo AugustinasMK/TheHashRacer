@@ -5,7 +5,7 @@ This program expects you to have created a C++ program that respects the require
 ![Meme](https://funnymemes.co/memes/Slow_and_Steady_Funny_Meme.jpg)
 
 ## Getting started
-You can get the binary from the [releases tab](https://github.com/AugustinasMK/TheHashRacer/releases) here on Github. The binary is standalone and only requires you to pass the path to your generator executable or build it yourself (see below for instructions).
+You can get the binary from the [releases tab](https://github.com/AugustinasMK/TheHashRacer/releases) here on Github. The binary is standalone and only requires you to pass the path to your generator executable. You can also build the binary yourself (see below for instructions).
 
 The code in this repository has been written in C++ and will thus require [`CMAKE`](https://cmake.org/) and `MAKE`(comes with either GNU or MinGW) to work correctly.
 These are the steps to get the racer up and running:
