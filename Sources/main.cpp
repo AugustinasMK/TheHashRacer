@@ -9,6 +9,7 @@
 #include <memory>
 #include <cstdio>
 #include <stdexcept>
+#include <sstream>
 
 using namespace std::chrono;
 using std::string;
@@ -51,7 +52,7 @@ bool patikrinkIlgi(size_t ilgis, const string& path){
     string s1 = kurkEilute(ilgis);
     string s2 = kurkEilute(ilgis);
     string h1 = exec(path + " " + s1);
-    string h2 = exec(path + " " + s2);;
+    string h2 = exec(path + " " + s2);
     if (s1.length() == s2.length()){
         std::cout << "When hashing messages with the length of " << ilgis << " the length of hashes match." << std::endl;
         return true;
@@ -102,6 +103,9 @@ void eilutes(int iterations, const string& path){
             if (h1 == h2) {
                 sutapimai++;
             }
+        } else {
+            i--;
+            continue;
         }
         if (i % (iterations / 10) == 0) {
             std::cout << i * 100 / iterations << "% " << std::endl;
@@ -129,6 +133,12 @@ void raides(int iterations, const string& path){
         int t = 0;
         string s1 = kurkEilute(1000);
         string s2 = kurkOCEilute(s1);
+
+        if (s1 == s2) {
+            i--;
+            continue;
+        }
+
         string p1 = path + " \"" + s1 + "\"";
         string p2 = path + " \"" + s2 + "\"";
         string h1 = exec(p1);
@@ -136,10 +146,18 @@ void raides(int iterations, const string& path){
         string b1;
         string b2;
         for (char c : h1){
-            b1 += std::bitset<8>(c).to_string();
+            int a;
+            std::stringstream ss;
+            ss << std::hex << c;
+            ss >> a;
+            b1 += std::bitset<4>(a).to_string();
         }
         for (char c : h2){
-            b2 += std::bitset<8>(c).to_string();
+            int a;
+            std::stringstream ss;
+            ss << std::hex << c;
+            ss >> a;
+            b2 += std::bitset<4>(a).to_string();
         }
         bitcount = b1.length();
 
