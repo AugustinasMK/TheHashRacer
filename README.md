@@ -46,7 +46,7 @@ There are 3 ways to get your results onto the board:
  |------|----|-|-|-|-|-|-|-|
  |AugustinasMK|2017|PASS|PASS| 9.14281 s (Windows 10)|0|44%|0%|26%|
  |gitguuddd|2018|PASS|PASS|26.2581 s (Windows 10)| 0| 48%| 0%|37% |
- | dqmis   | 2018 | PASS | PASS | 3.27026 s (macOS | 0 | 43% | 0% | 15% |
+ | dqmis   | 2018 | PASS | PASS | 3.27026 s (macOS) | 0 | 43% | 0% | 15% |
 
  
  ## Credits
