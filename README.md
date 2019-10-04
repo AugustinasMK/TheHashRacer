@@ -1,6 +1,6 @@
 # TheHashRacer
 
-## The hasher is currently under maintenance. Please check back later on.
+## The racer is currently under maintenance. Please check back later on.
 
 ## Introduction
 Hi and welcome to the Race. This is a benchmark designed for VU MIF ISI students to race their hash generators in speed and reliability.
