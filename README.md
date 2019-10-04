@@ -1,4 +1,7 @@
 # TheHashRacer
+
+## The hasher is currently under maintenance. Please check back later on.
+
 ## Introduction
 Hi and welcome to the Race. This is a benchmark designed for VU MIF ISI students to race their hash generators in speed and reliability.
 This program expects you to have created a C++ program that respects the requirements of [1-oji užduotis: Hash generatorius](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md). Without further ado, LET'S GET RACING!
