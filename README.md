@@ -42,10 +42,12 @@ There are 3 ways to get your results onto the board:
  - F - The minimum percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
  - G - The average percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
  
-| Author       | Year | A    | B    | C         | D | E   | F  | G   | Rank |
-|--------------|------|------|------|-----------|---|-----|----|-----|------|
-| AugustinasMK | 2017 | PASS | PASS | 9.14281 s | 0 | 44% | 0% | 26% | 1    |
-| dqmis        | 2018 | PASS | PASS | 3.27026 s | 0 | 43% | 0% | 15% | ?    |
+ |Author|Year|A|B|C|D|E|F|G|
+ |------|----|-|-|-|-|-|-|-|
+ |AugustinasMK|2017|PASS|PASS| 9.14281 s (Windows 10)|0|44%|0%|26%|
+ |gitguuddd|2018|PASS|PASS|26.2581 s (Windows 10)| 0| 48%| 0%|37% |
+ | dqmis   | 2018 | PASS | PASS | 3.27026 s (macOS | 0 | 43% | 0% | 15% |
+
  
  ## Credits
 This racer has been created by me - [Augustinas Makevičius](https://github.com/AugustinasMK). You can find more of my work here on Github by pressing on my name or contacting me at amakevicius98@gmail.com
