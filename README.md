@@ -38,13 +38,14 @@ There are 3 ways to get your results onto the board:
  - B - Checks the second case: if m1 and m2 are two different 1000 characters long strings the hashes should be of the same length.
  - C - The time it takes to hash konstitucija.txt. 
  - D - The number of collisions when hashing 10000 pairs of random strings.
- - E - The maximum percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
- - F - The minimum percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
- - G - The average percentage of bitwise difference when hashing 10000 pairs of random strings that differ by one character.
+ - E - The maximum percentage of letter-wise difference when hashing 10000 pairs of random strings that differ by one character.
+ - F - The minimum percentage of letter-wise difference when hashing 10000 pairs of random strings that differ by one character.
+ - G - The average percentage of letter-wise difference when hashing 10000 pairs of random strings that differ by one character.
  
  |Author|Year|A|B|C|D|E|F|G|
  |------|----|-|-|-|-|-|-|-|
- |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|73%|25%|48%|
+ |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|100%|58%|87%|
+ |gitguuddd|2018|PASS|PASS| 0.8305 s (Linux)|0|100%|0%|92%|
 
  
  ## Credits
