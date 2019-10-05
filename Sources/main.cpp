@@ -143,26 +143,10 @@ void raides(int iterations, const string& path){
         string p2 = path + " \"" + s2 + "\"";
         string h1 = exec(p1);
         string h2 = exec(p2);
-        string b1;
-        string b2;
-        for (char c : h1){
-            int a;
-            std::stringstream ss;
-            ss << std::hex << c;
-            ss >> a;
-            b1 += std::bitset<4>(a).to_string();
-        }
-        for (char c : h2){
-            int a;
-            std::stringstream ss;
-            ss << std::hex << c;
-            ss >> a;
-            b2 += std::bitset<4>(a).to_string();
-        }
-        bitcount = b1.length();
+        bitcount = h1.length();
 
-        for (size_t j = 0; j < b1.length(); j++){
-            if (b1[j] != b2[j]) {
+        for (size_t j = 0; j < h1.length(); j++){
+            if (h1[j] != h2[j]) {
                 t++;
             }
         }
@@ -183,9 +167,9 @@ void raides(int iterations, const string& path){
     }
     std::cout << std::endl;
     std::cout << "During the generation of " << iterations << " of not equal random pairs of strings that differ by one character we found that:" << std::endl;
-    std::cout << "The maximum bitwise difference is " << max * 100 / bitcount << "%." << std::endl;
-    std::cout << "The minimum bitwise difference is " << min * 100 / bitcount << "%." << std::endl;
-    std::cout << "The average bitwise difference is " << (sum * 100 / bitcount) / iterations << "%." << std::endl;
+    std::cout << "The maximum letter-wise difference is " << max * 100 / bitcount << "%." << std::endl;
+    std::cout << "The minimum letter-wise difference is " << min * 100 / bitcount << "%." << std::endl;
+    std::cout << "The average letter-wise difference is " << (sum * 100 / bitcount) / iterations << "%." << std::endl;
 }
 
 int main(int argc,char* argv[]) {
