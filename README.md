@@ -1,7 +1,4 @@
 # TheHashRacer
-
-## The racer is currently under maintenance. Please check back later on.
-
 ## Introduction
 Hi and welcome to the Race. This is a benchmark designed for VU MIF ISI students to race their hash generators in speed and reliability.
 This program expects you to have created a C++ program that respects the requirements of [1-oji užduotis: Hash generatorius](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md). Without further ado, LET'S GET RACING!
@@ -47,10 +44,7 @@ There are 3 ways to get your results onto the board:
  
  |Author|Year|A|B|C|D|E|F|G|
  |------|----|-|-|-|-|-|-|-|
- |AugustinasMK|2017|PASS|PASS| 9.14281 s (Windows 10)|0|44%|0%|26%|
- |gitguuddd|2018|PASS|PASS|26.2581 s (Windows 10)| 0| 48%| 0%|37% |
- | dqmis   | 2018 | PASS | PASS | 3.27026 s (macOS) | 0 | 43% | 0% | 15% |
- |Rytisgit|2017|PASS|PASS|13.8502s (Windows 10)|0|50%|0%|37%|
+ |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|70%|25%|48%|
 
  
  ## Credits
