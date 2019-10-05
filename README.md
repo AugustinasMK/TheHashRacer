@@ -44,7 +44,7 @@ There are 3 ways to get your results onto the board:
  
  |Author|Year|A|B|C|D|E|F|G|
  |------|----|-|-|-|-|-|-|-|
- |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|70%|25%|48%|
+ |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|73%|25%|48%|
 
  
  ## Credits
