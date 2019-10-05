@@ -117,7 +117,7 @@ void eilutes(int iterations, const string& path){
 }
 
 void raides(int iterations, const string& path){
-    std::cout << "Starting bitwise test." << std::endl;
+    std::cout << "Starting letter-wise test." << std::endl;
     int max = -100;
     string max1;
     string max2;
