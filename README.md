@@ -46,6 +46,7 @@ There are 3 ways to get your results onto the board:
  |------|----|-|-|-|-|-|-|-|
  |AugustinasMK|2017|PASS|PASS| 0.988009 s (Linux)|0|100%|58%|87%|
  |gitguuddd|2018|PASS|PASS| 0.8305 s (Linux)|0|100%|0%|92%|
+ |Rytisgit|2017|PASS|PASS| 1.00654 s (Linux)|0|75%|45%|72%|
 
  
  ## Credits
